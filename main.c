@@ -72,8 +72,8 @@ int main()
             case 5:
             	printf("donner le code barre de produit a rechercher");
             	scanf("%lu",&idproduit);
-				recherche_produit(f,idproduit);
-				break;    
+		recherche_produit(f,idproduit);
+		break;    
             case 6:
                 printf("donnez le code barre de produit: ");
                 scanf("%lu",&idproduit);
